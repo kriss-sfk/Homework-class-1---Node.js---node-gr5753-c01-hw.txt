@@ -1,0 +1,27 @@
+Filtering an array 
+array is a numbers positioned in [], 
+ everytime i want to go trough them i need to do looping, 
+
+ exmpl. let result [2,4,5,6] - is variable that has an array 
+ so i i want to filter an array i need to use 
+
+ for (let i =0; < i; i++), but in this case i wanna go trough 
+ array and variable called results and i need to use 
+
+ for(let i =0; < results.length; // this is the name of the variable//
+  i++) {
+    console.log(results[i]) // because i is something that 
+   is changable, for instance if I put in console.log(results[3]) it will 
+   filter only number 6, becuse i starts to count from 0.
+  }
+
+
+  SCHEME STRUCTURE TO REMEMBER 
+  [    ] - array
+
+  for (start; condition; increment)
+
+  for (let i = 0; i < something; i++)
+  console.log(something[i])
+
+  becuse i is 
